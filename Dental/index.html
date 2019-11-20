@@ -8,23 +8,22 @@
 </head>
 <body>
   <header class="main-header">
+    <a class="main-logo" href="index.html">
+      <img src="img/svg/main-logo.svg" alt="Dental Factory">
+    </a>
     <nav class="main-navigation">
-      <a class="main-logo" href="index.html">
-        <img src="img/css/main-logo.svg" alt="Dental Factory">
-      </a>
       <ul class="site-navigation">
-        <li><a href="works.html">Наши работы</a></li>
-        <li><a href="about.html">О клинике</a></li>
-        <li><a href="services.html">Виниры</a></li>
-        <li><a href="services.html">Протезирование</a></li>
-        <li><a href="services.html">Импланты</a></li>
+        <li class="site-navigation__link"><a href="#">Наши работы</a></li>
+        <li class="site-navigation__link"><a href="#">О клинике</a></li>
+        <li class="site-navigation__link"><a href="#">Виниры</a></li>
+        <li class="site-navigation__link"><a href="#">Протезирование</a></li>
+        <li class="site-navigation__link"><a href="#">Импланты</a></li>
       </ul>
       <ul class="lang-switcher">
-        <li><a href="index.html">RU</a></li>
-        <li><a href="index-en.html">EN</a></li>
+        <li class="lang-switcher__link"><a href="#">RU</a></li>
+        <li class="lang-switcher__link"><a href="#">EN</a></li>
       </ul>
-      <p class="contact-numers">+37257832457</p>
-      <span class="button appointment-button">Записаться на прием</span>
+      <a href="tel:+37257832457" class="phone-number">+37257832457</a>
     </nav>
   </header>
 
@@ -33,174 +32,183 @@
     <h1 class="visually-hidden">Dental Factory</h1>
 
     <section class="reasons">
-      <div class="reasons-title">
-        <h2>Почему именно Dental Factory?</h2>
-      </div>
-      <ul class="reasons-list">
-        <li class="reasons-item">
-          <h3>Инновационные технологии</h3>
-          <p>Операционный микроскоп, 3D-томограф, стоматологическая установка А-dec – всё это позволяет нам подойти к лечению с точностью ювелира</p>
+      <h2 class="reasons__title">Почему именно Dental Factory</h2>
+      <ul class="reasons__list">
+        <li class="reasons__item">
+          <img src="img/svg/diamond.svg" alt="Алмаз">
+          <h3 class="reasons__subtitle">Инновационные технологии</h3>
+          <p class="reasons__description">Операционный микроскоп, 3D-томограф, стоматологическая установка А-dec – всё это позволяет нам подойти к лечению с точностью ювелира</p><!--Добавить текст-->
         </li>
-        <li class="reasons-item">
-          <h3>Мы в теме!</h3>
-          <p>Мы идём в ногу с современной стоматологией и постоянно совершенствуемся, посещая международные семинары, конгрессы, тематические курсы</p>
+        <li class="reasons__item">
+          <img src="img/svg/list.svg" alt="Список">
+          <h3 class="reasons__subtitle">Мы в теме</h3>
+          <p class="reasons__description">Мы идём в ногу с современной стоматологией и постоянно совершенствуемся, посещая международные семинары, конгрессы, тематические курсы</p><!--Добавить текст-->
         </li>
-        <li class="reasons-item">
-          <h3>С нами не страшно</h3>
-          <p>Мы создаем атмосферу, где даже ярый дентофоб чувствует себя спокойно. А еще мы лечим зубы без боли!</p>
-        </li>
-      </ul>
-    </section>
-
-    <section class="services">
-      <div class="services-title">
-        <h2>Услуги</h2>
-      </div>
-      <ul class="servises-list">
-        <li class="servises-item">
-          <h3>Виниры</h3>
-          <p>Быстрый и безболезненный способ сделать свои зубы ровными и белыми, как у голливудских звёзд.</p>
-        </li>
-        <li class="servises-item">
-          <h3>Имплантация</h3>
-          <p>Имплантация - это современный и безопасный способ восстановить отсутствующие зубы.</p>
-        </li>
-        <li class="servises-item">
-          <h3>Протезирование</h3>
-          <p>Потеряли один или несколько зубов? Протезирование вернёт вашу улыбку и уверенность в себе.</p>
+        <li class="reasons__item">
+          <img src="img/svg/smile.svg" alt="Смайлик">
+          <h3 class="reasons__subtitle">С нами не страшно</h3>
+          <p class="reasons__description">Мы создаем атмосферу, где даже ярый дентофоб чувствует себя спокойно. А еще мы лечим зубы без боли!</p><!--Добавить текст-->
         </li>
       </ul>
     </section>
 
+    <section class="sevices">
+      <h2 class="services-title">Услуги</h2>
+      <ul class="services__list">
+        <li class="services__item">
+          <h3 class="services__subtitle">Виниры</h3>
+          <p class="services__description">Быстрый и безопасный способ сделать свои зубы ровными и белыми, как у голивудских звезд.</p>
+          <button class="services__button"><a href="#">Об услуге</a></button>
+          <img src="img/teeth01.jpg" alt="Зубы-виниры">
+        </li>
+        <li class="services__item">
+          <h3 class="services__subtitle">Имплантация</h3>
+          <p class="services__description">Быстрый и безопасный способ сделать свои зубы ровными и белыми, как у голивудских звезд.</p><!--Добавить описание-->
+          <button class="services__button"><a href="#">Об услуге</a></button>
+          <img src="img/teeth02.jpg" alt="Зубы-импланты">
+          </li>
+          <li class="services__item">
+            <h3 class="services__subtitle">Протезирование</h3>
+            <p class="services__description">Быстрый и безопасный способ сделать свои зубы ровными и белыми, как у голивудских звезд.</p><!--Добавить описание-->
+            <button class="services__button"><a href="#">Об услуге</a></button>
+            <img src="img/teeth03.jpg" alt="Зубы-протезы">
+          </li>
+      </ul>
+    </section>
+<!--Вернуться позже-->
     <section class="devices">
-      <div class="devices-title">
         <h2>Оборудование</h2>
-      </div>
       <ul class="devices-list">
-        <li class="devices-item">
+        <li class="devices__item">
           <h3>Микроскоп Labomed. США</h3>
           <p>Увеличивает наши возможности! Мы можем рассматривать ваши зубы на многократном увеличении; находить мельчайшие дефекты и видеть труднодоступные места.</p>
         </li>
-        <li class="devices-item">
+        <li class="devices__item">
           <h3>3-D рентген CS</h3>
           <p>Позволяет нам чётко видеть состояние зубов пациентов не только снаружи, но и внутри. Точный диагноз без иллюзий и предположений!</p>
         </li>
-        <li class="devices-item">
+        <li class="devices__item">
           <h3>Стоматологическая установка A-dec Int. США</h3>
           <p>Нам удобно и интересно на ней работать, а клиенту просто комфортно сидеть в легендарном кресле «A-dec»</p>
         </li>
       </ul>
     </section>
-
+<!--Вернуться позже-->
     <section class="gallery">
-      <div class="gallery-title">
-        <h2>Галерея</h2>
-      </div>
-      <figure class="gallery-content">
-          <a href="#"><img src="img/teeth-before" width="286" height="164" alt="Зубы до"></a>
-          <a href="#"><img src="img/teeth-after" width="286" height="164" alt="Зубы после"></a>
-        </figure>
-        <span class="button gallery-button gallery-button-back">Назад</span>
-        <span class="button gallery-button gallery-button-forward">Вперед</span>
+      <h2 class="gallery__title">Галерея</h2>
+      <ul class="gallery__list">
+        <li class="gallery__item">
+          <button class="button gallery__backbtn">Назад</button><!--Придумать как сделать стрелку назад-->
+        </li>
+        <li class="gallery__item">
+          <p class="gallery__description">До</p>
+          <img src="img/teeth01.jpg" alt="Зубы до">
+        </li>
+        <li class="gallery__item">
+          <p class="gallery__description">После</p>
+          <img src="img/teeth02.jpg" alt="Зубы после">
+        </li>
+        <li class="gallery__item">
+          <button class="button gallery__forwbtn">Вперед</button><!--Придумать как сделать стрелку вперед-->
+        </li>
+      </ul>
     </section>
 
     <section class="price">
       <h2>Прейскурант</h2>
-      <ul class="price-list">
-        <li class="prise-item">
-          <p>Консультация (диагностический осмотр полости рта, составление плана лечения, диагностическое фотографирование)</p>
-          <p><b>30 евро</b></p><!--Добавить значок евро-->
+      <ul class="price__list">
+        <li class="priсe__item">
+          <p class="price__description">Консультация (диагностический осмотр полости рта, составление плана лечения, диагностическое фотографирование)</p>
+          <p class="price__howmuch">30 евро</p><!--Добавить значок евро-->
         </li>
-        <li class="prise-item">
-          <p>3-D компьютерная томография (3 - D рентген)</p>
-          <p><b>65 евро</b></p><!--Добавить значок евро-->
+        <li class="priсe__item">
+          <p class="price__description">3-D компьютерная томография (3 - D рентген)</p>
+          <p class="price__howmuch">65 евро</p><!--Добавить значок евро-->
         </li>
-        <li class="prise-item">
-          <p>Профилактическая чистка зубного камня и налета</p>
-          <p><b>от 80 евро</b></p><!--Добавить значок евро-->
+        <li class="priсe__item">
+          <p class="price__description">Профилактическая чистка зубного камня и налета</p>
+          <p class="price__howmuch">от 80 евро</p><!--Добавить значок евро-->
         </li>
-        <li class="prise-item">
-          <p>Композитная реставрация (пломба) одного зуба</p>
-          <p><b>от 80 евро</b></p><!--Добавить значок евро-->
+        <li class="priсe__item">
+          <p class="price__description">Композитная реставрация (пломба) одного зуба</p>
+          <p class="price__howmuch">от 80 евро</p><!--Добавить значок евро-->
         </li>
-        <li class="prise-item">
-          <p>Изготовление (керамической или циркониевой) реставрации (винир, коронка, накладка)</p>
-          <p><b>от 500 евро</b></p><!--Добавить значок евро-->
+        <li class="priсe__item">
+          <p class="price__description">Изготовление (керамической или циркониевой) реставрации (винир, коронка, накладка)</p>
+          <p class="price__howmuch">от 500 евро</p><!--Добавить значок евро-->
         </li>
-        <li class="prise-item">
-          <p>Установка имплантата ( 1 этап - хирургия )</p>
-          <p><b>от 500 евро</b></p><!--Добавить значок евро-->
+        <li class="priсe__item">
+          <p class="price__description">Установка имплантата ( 1 этап - хирургия )</p>
+          <p class="price__howmuch">от 500 евро</p><!--Добавить значок евро-->
         </li>
-        <li class="prise-item">
-          <p>Открытие имплантата ( 2 этап - хирургия )</p>
-          <p><b>от 200 евро</b></p><!--Добавить значок евро-->
+        <li class="price__item">
+          <p class="price__description">Открытие имплантата ( 2 этап - хирургия )</p>
+          <p class="price__howmuch">от 200 евро</p><!--Добавить значок евро-->
         </li>
-        <li class="prise-item">
-          <p>Изготовление коронки на имплантат</p>
-          <p><b>от 500 евро</b></p><!--Добавить значок евро-->
+        <li class="price__item">
+          <p class="price__description">Изготовление коронки на имплантат</p>
+          <p class="price__howmuch">от 500 евро</p><!--Добавить значок евро-->
         </li>
-        <li class="prise-item">
-          <p>Костная пластинка</p>
-          <p><b>от 600 евро</b></p><!--Добавить значок евро-->
+        <li class="price__item">
+          <p class="price__description">Костная пластинка</p>
+          <p class="price__howmuch">от 600 евро</p><!--Добавить значок евро-->
         </li>
-        <li class="prise-item">
-          <p>Удаление зуба</p>
-          <p><b>от 70 евро</b></p><!--Добавить значок евро-->
+        <li class="price__item">
+          <p class="price__description">Удаление зуба</p>
+          <p class="price__howmuch">от 70 евро</p><!--Добавить значок евро-->
         </li>
       </ul>
     </section>
 
     <section class="appointment">
-      <div class="appointment-title">
-        <h2>Запишитесь на прием</h2>
-      </div>
+        <h2 class="appointment__title">Запишитесь на прием</h2>
       <p class="appointment-info">Мы с вами свяжемся и выберем дату и время</p>
-      <form class="appointment-form">
-        <p class="appointment-item">
-          <input type="text" name="name" placeholder="Как вас зовут?">
-        </p>
-        <p class="appointment-item">
-          <input type="text" name="phone-number" placeholder="Телефон для свзязи?">
-        </p>
-        <p class="appointment-item">
-          <input type="text" name="email" placeholder="E-mail">
-        </p>
-        <p class="appointment-item">
-          <input type="text" name="comment" placeholder="Комментарий">
-        </p>
-        <p class="checkbox-info">
+      <form class="appointment__form">
+        <ul class="appointment__form-list"></ul>
+          <li class="appointment__form-item">
+            <input type="text" name="name" placeholder="Как вас зовут?">
+          </li>
+          <li class="appointment__form-item">
+            <input type="text" name="phone-number" placeholder="Телефон для свзязи?">
+          </li>
+          <li class="appointment__form-item">
+            <input type="text" name="email" placeholder="E-mail">
+          </li>
+          <li class="appointment__form-item">
+            <input type="text" name="comment" placeholder="Комментарий">
+          </li>
+        <p class="checkbox__confirm">
           <input type="checkbox" name="confirm">
           <p>Я ознакомлен с содержанием пользовательского соглашения и принимаю условия обработки персональных данных.</p>
         </p>
         <button class="confirm-button">Записаться</button>
-        </p>
       </form>
     </section>
 
     <section class="contact-info">
-      <div class="contact-title">
-        <h2>Контакты</h2>
+        <h2 class="contact__title">Контакты</h2>
+      <div class="contact-container">
+        <ul class="contact__list">
+          <li class="contact__item">
+            <h3 class="contact__subtitle">Телефон</h3>
+            <a href="tel:+37255530395" class="phone-number">+372 5553 0395</p>
+          </li>
+          <li class="contact__item">
+            <h3 class="contact__subtitle">E-mail</h3>
+            <p class="contact__description">info@dentalfactory.ee</p>
+          </li>
+          <li class="contact__item">
+            <h3 class="contact__subtitle">Адрес</h3>
+            <p class="contact__description">Tallinn linn, Tartu mnt 32<br>
+              (Вход со стороны Tartu mnt) 
+            </p>
+          </li>
+          <li class="contact__item">
+            <h3 class="contact__subtitle">Часы работы</h3>
+            <p class="contact__description">С 10:00 до 18:00 ежедневно</p>
+          </li>
+        </ul>
       </div>
-      <ul class="contact-list">
-        <li class="contact-item">
-          <h3>Телефон</h3>
-          <p>+372 5553 0395</p>
-        </li>
-        <li class="contact-item">
-          <h3>E-mail</h3>
-          <p>info@dentalfactory.ee</p>
-        </li>
-        <li class="contact-item">
-          <h3>Адрес</h3>
-          <p>Tallinn linn, Tartu mnt 32<br>
-            (Вход со стороны Tartu mnt) 
-          </p>
-        </li>
-        <li class="contact-item">
-          <h3>Часы работы</h3>
-          <p>С 10:00 до 18:00 ежедневно</p>
-        </li>
-      </ul>
       <div class="contacts-map-container">
           <div class="bg-mark" style="background-image:url(img/bg-mark.svg)"></div>
           <div class="map-box" id="map-box">
@@ -223,7 +231,8 @@
     <p class="footer-contact">
       <b>DENTALFACTORY OÜ<br>
          Harjumaa, Tallinn linn, Tartu mnt 32, 10115 <br>
-         Tegevusluba nr: L04431</b>
+         Tegevusluba nr: L04431
+      </b>
     </p>
     <p class="footer-copyright">© 2015-2019 dentalfactory.eu все права защищены</p>
   </footer>
